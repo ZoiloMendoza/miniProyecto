@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>collares locos</title>
+</head>
+
+<body>
+    <form>
+        <div class="main-container">
+            <h4>Elije el tamaño de tu collar</h4>
+            <div class="size-collar">
+                <div class="sizeC">S</div>
+                <div class="sizeC">M</div>
+                <div class="sizeC">L</div>
+            </div>
+            <h4>Elije el color de tu collar</h4>
+            <div class="color-collar">
+                <input onclick="elegirColor('#FD6D6D','color1')" class="colorC color1" type="buttom" id="color1">
+                <input onclick="elegirColor('#000000','color2')" class="colorC color2" type="buttom" id="color2">
+                <input onclick="elegirColor('#0347F2','color3')" class="colorC color3" type="buttom" id="color3">
+                <input onclick="elegirColor('#F1FF3A','color4')" class="colorC color4" type="buttom" id="color4">
+                <input onclick="elegirColor('#FF136F','color5')" class="colorC color5" type="buttom" id="color5">
+                <input onclick="elegirColor('#D60C0C','color6')" class="colorC color6" type="buttom" id="color6">
+            </div>
+            <div id="container-collar" class="container-collar">
+                <div id="collar" class="collar">
+
+                </div>
+            </div>
+            <h4>Elije tus charms (mínimo 5 - máximo 9)</h4>
+            <div class="color-keyboard">
+                <input onclick="elegirColork('#702F6E')" class="colorK colork1" type="buttom" name="" id="colork1">
+                <input onclick="elegirColork('#94E1EE')" class="colorK colork2" type="buttom" name="" id="colork2">
+                <input onclick="elegirColork('#E7F852')" class="colorK colork3" type="buttom" name="" id="colork3">
+                <input onclick="elegirColork('#0341AD')" class="colorK colork4" type="buttom" name="" id="colork4">
+                <input onclick="elegirColork('#52B33F')" class="colorK colork5" type="buttom" name="" id="colork5">
+                <input onclick="elegirColork('#FF952B')" class="colorK colork6" type="buttom" name="" id="colork6">
+                <input onclick="elegirColork('#E43C27')" class="colorK colork7" type="buttom" name="" id="colork7">
+                <input onclick="elegirColork('#FF1363')" class="colorK colork8" type="buttom" name="" id="colork8">
+                <input onclick="elegirColork('#FFD7E0')" class="colorK colork9" type="buttom" name="" id="colork9">
+            </div>
+            <div class="keyboard-container">
+                <div class="keyRow">
+                    <div class="keyboard">Q</div>
+                    <div class="keyboard">W</div>
+                    <div class="keyboard">E</div>
+                    <div class="keyboard">R</div>
+                    <div class="keyboard">T</div>
+                    <div class="keyboard">Y</div>
+                    <div class="keyboard">U</div>
+                    <div class="keyboard">I</div>
+                    <div class="keyboard">O</div>
+                    <div class="keyboard">P</div>
+                </div>
+                <div class="keyRow">
+                    <div class="keyboard">A</div>
+                    <div class="keyboard">S</div>
+                    <div class="keyboard">D</div>
+                    <div class="keyboard">F</div>
+                    <div class="keyboard">G</div>
+                    <div class="keyboard">H</div>
+                    <div class="keyboard">J</div>
+                    <div class="keyboard">K</div>
+                    <div class="keyboard">L</div>
+                    <div class="keyboard">Ñ</div>
+                </div>
+                <div class="keyRow">
+                    <div class="keyboard">Z</div>
+                    <div class="keyboard">X</div>
+                    <div class="keyboard">C</div>
+                    <div class="keyboard">V</div>
+                    <div class="keyboard">B</div>
+                    <div class="keyboard">N</div>
+                    <div class="keyboard">M</div>
+                    <div class="keyboard">♥︎</div>
+                    <div class="keyboard">★</div>
+                    <div class="keyboard">🌸</div>
+                </div>
+                <div class="keyRow">
+                    <div class="keyboard">👄</div>
+                    <div class="keyboard">♣︎</div>
+                    <div class="keyboard">⚡️</div>
+                    <div class="keyboard">🙂</div>
+                    <div class="keyboard">💀</div>
+                    <div class="keyboard">🌙</div>
+                    <div class="keyboard">🦋</div>
+                    <div class="keyboard"></div>
+                    <div class="keyboard"></div>
+                    <div class="keyboard">✪</div>
+                </div>
+            </div>
+            <h4>Teléfono (10 dígitos)</h4>
+            <input type="phone" id="phone">
+            <button type="submit">Enviar</button>
+        </div>
+        <script src="/js/main.js"></script>
+</body>
+
+</html>

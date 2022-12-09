@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+    form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .main-container{
+            width: auto;
+            height: auto;
+            h4{
+                font-family:'Quicksand';
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+            .size-collar{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                align-content: center;
+                flex-wrap: wrap;
+                height: 9vh;
+                line-height: 4vh;
+                text-align: center;
+                margin-bottom: 20px;
+                //border: 1px solid black;
+                width: auto;
+                height: auto;
+                
+                .sizeC{
+                    font-family:'Quicksand';
+                    font-size: 20px;
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid gray;
+                    border-radius: 50%;
+                }
+            }
+            .color-collar{
+                display: flex;
+                justify-content: space-between;
+                
+                width: auto;
+                height: auto;
+                padding: 2%;
+                .color1{
+                    background-color: #FD6D6D;
+                    border: #FD6D6D;
+                }
+                .color2{
+                    background-color: #000000;
+                    border: #000000;
+                }
+                .color3{
+                    background-color: #0347f2;
+                    border: #0347f2;
+                }
+                .color4{
+                    background-color: #F1FF3A;
+                    border: #F1FF3A;
+                }
+                .color5{
+                    background-color: #FF136F;
+                    border: #FF136F;
+                }
+                .color6{
+                    background-color: #D60C0C;
+                    border: #D60C0C;
+                }
+                .colorC{
+                    width: 50px;
+                    height: 50px;
+                    
+                    border-radius: 50%;   
+                }
+            }
+            .container-collar{
+                border: 1px solid rgb(112, 114, 122);
+                background-color: #EFEFEF;
+                width: 100%;
+                height: 200px;
+                margin-bottom: 5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .collar{
+                    width: 100%;
+                    height: 30px;
+                    background-color: black;
+                }
+            }
+            .color-keyboard{
+                display: flex;
+                justify-content: center;
+                gap: 3%;
+                //border: 1px solid black;
+                width: auto;
+                height: auto;
+                padding: 20px 10px;
+                .colork1{
+                    background-color: #702F6E;
+                    border: #702F6E;
+                }
+                .colork2{
+                    background-color: #94E1EE;
+                    border: #94E1EE;
+                }
+                .colork3{
+                    background-color: #E7F852;
+                    border: #E7F852;
+                }
+                .colork4{
+                    background-color: #0341AD;
+                    border: #0341AD;
+                }
+                .colork5{
+                    background-color: #52B33F;
+                    border: #52B33F;
+                }
+                .colork6{
+                    background-color: #FF952B;
+                    border: #FF952B;
+                }
+                .colork7{
+                    background-color: #E43C27;
+                    border: #E43C27;
+                }
+                .colork8{
+                    background-color: #FF1363;
+                    border: #FF1363;
+                }
+                .colork9{
+                    background-color: #FFD7E0;
+                    border: #FFD7E0;
+                }
+                .colorK{
+                    width: 9%;
+                    height: 5vh;
+                    border-radius: 20%;
+                }
+            }
+            .keyboard-container{
+                margin-bottom: 3%;
+                .keyRow{
+                    display: flex;
+                    justify-content: center;
+                    gap: 1%;
+                    margin-bottom: 1%;
+                    height: 4vh;
+                    line-height: 4vh;
+                    text-align: center;
+                    .keyboard{ 
+                        font-family:'Quicksand';
+                        font-size: 30px;
+                        font-weight: bolder;
+                        width: 9%;
+                        height: 4vh;
+                        border-radius: 10%;
+                        border: 1px solid rgb(80, 75, 75);
+                    }
+                }
+            }
+        }
+    }
+}
