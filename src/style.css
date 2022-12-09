@@ -106,7 +106,7 @@ body form .main-container .container-collar {
 body form .main-container .container-collar .collar {
   width: 100%;
   height: 30px;
-  background-color: black;
+  background-color: #FD6D6D;
 }
 body form .main-container .color-keyboard {
   display: flex;
@@ -177,4 +177,5 @@ body form .main-container .keyboard-container .keyRow .keyboard {
   height: 4vh;
   border-radius: 10%;
   border: 1px solid rgb(80, 75, 75);
+  color: #702F6E;
 }/*# sourceMappingURL=style.css.map */
