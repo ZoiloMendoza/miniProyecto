@@ -17,9 +17,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 2%;
+        padding-right: 2%;
         .main-container{
             width: auto;
-            @media screen and (min-width: 400px){ width: 500px;}
+            @media screen and (min-width: 400px){ width: 450px;}
             @media screen and (min-width: 1500px){ width: 30%;}
             height: auto;
             h4{

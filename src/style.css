@@ -17,6 +17,8 @@ body form {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 body form .main-container {
   width: auto;
@@ -24,7 +26,7 @@ body form .main-container {
 }
 @media screen and (min-width: 400px) {
   body form .main-container {
-    width: 500px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1500px) {
