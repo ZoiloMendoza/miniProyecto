@@ -10,7 +10,7 @@ elegirColor = (color,id) => {
     })
 }
 
-elegirColork = (color,id) => {
+elegirColork = (color) => {
     let keys = Array.from(keyRow);
     keys.forEach((key) => {
             key.style.color = color;
