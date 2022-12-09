@@ -1,18 +1,16 @@
 const collar = document.getElementById('collar');
 const keyRow = document.getElementsByClassName('keyboard');
-let collarColores = ['color1','color2','color3','color4','color5','color6'];
 
-elegirColor = (color,id) => {
-    collarColores.map((collarColor) => {
-        if(collarColor === id) {
-            collar.style.background = color;
-        }
-    })
+
+elegirColor = (e) => {
+    e.preventDefault();
+    collar.style.background = e.target.name;
 }
 
-elegirColork = (color) => {
+elegirColork = (e) => {
+    e.preventDefault();
     let keys = Array.from(keyRow);
     keys.forEach((key) => {
-            key.style.color = color;
+            key.style.color = e.target.name;
     }) 
 }

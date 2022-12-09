@@ -19,13 +19,13 @@
                 <div class="sizeC">L</div>
             </div>
             <h4>Elije el color de tu collar</h4>
-            <div class="color-collar">
-                <input onclick="elegirColor('#FD6D6D','color1')" class="colorC color1" type="button" id="color1">
-                <input onclick="elegirColor('#000000','color2')" class="colorC color2" type="button" id="color2">
-                <input onclick="elegirColor('#0347F2','color3')" class="colorC color3" type="button" id="color3">
-                <input onclick="elegirColor('#F1FF3A','color4')" class="colorC color4" type="button" id="color4">
-                <input onclick="elegirColor('#FF136F','color5')" class="colorC color5" type="button" id="color5">
-                <input onclick="elegirColor('#D60C0C','color6')" class="colorC color6" type="button" id="color6">
+            <div onclick="elegirColor(event)" class="color-collar">
+                <input name="#FD6D6D" class="colorC color1" type="button" id="color1">
+                <input name="#000000" class="colorC color2" type="button" id="color2">
+                <input name="#0347F2" class="colorC color3" type="button" id="color3">
+                <input name="#F1FF3A" class="colorC color4" type="button" id="color4">
+                <input name="#FF136F" class="colorC color5" type="button" id="color5">
+                <input name="#D60C0C" class="colorC color6" type="button" id="color6">
             </div>
             <div id="container-collar" class="container-collar">
                 <div id="collar" class="collar">
@@ -33,16 +33,16 @@
                 </div>
             </div>
             <h4>Elije tus charms (mínimo 5 - máximo 9)</h4>
-            <div class="color-keyboard">
-                <input onclick="elegirColork('#702F6E')" class="colorK colork1" type="button" name="" id="colork1">
-                <input onclick="elegirColork('#94E1EE')" class="colorK colork2" type="button" name="" id="colork2">
-                <input onclick="elegirColork('#E7F852')" class="colorK colork3" type="button" name="" id="colork3">
-                <input onclick="elegirColork('#0341AD')" class="colorK colork4" type="button" name="" id="colork4">
-                <input onclick="elegirColork('#52B33F')" class="colorK colork5" type="button" name="" id="colork5">
-                <input onclick="elegirColork('#FF952B')" class="colorK colork6" type="button" name="" id="colork6">
-                <input onclick="elegirColork('#E43C27')" class="colorK colork7" type="button" name="" id="colork7">
-                <input onclick="elegirColork('#FF1363')" class="colorK colork8" type="button" name="" id="colork8">
-                <input onclick="elegirColork('#FFD7E0')" class="colorK colork9" type="button" name="" id="colork9">
+            <div onclick="elegirColork(event)" class="color-keyboard">
+                <input name="#702F6E" class="colorK colork1" type="button" id="colork1">
+                <input name="#94E1EE" class="colorK colork2" type="button" id="colork2">
+                <input name="#E7F852" class="colorK colork3" type="button" id="colork3">
+                <input name="#0341AD" class="colorK colork4" type="button" id="colork4">
+                <input name="#52B33F" class="colorK colork5" type="button" id="colork5">
+                <input name="#FF952B" class="colorK colork6" type="button" id="colork6">
+                <input name="#E43C27" class="colorK colork7" type="button" id="colork7">
+                <input name="#FF1363" class="colorK colork8" type="button" id="colork8">
+                <input name="#FFD7E0" class="colorK colork9" type="button" id="colork9">
             </div>
             <div class="keyboard-container">
                 <div class="keyRow">
