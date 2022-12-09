@@ -17,9 +17,9 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 2%;
-        padding-right: 2%;
         .main-container{
+            padding-left: 3%;
+            padding-right: 3%;
             width: auto;
             @media screen and (min-width: 400px){ width: 450px;}
             @media screen and (min-width: 1500px){ width: 30%;}
@@ -105,12 +105,12 @@ body{
             }
             .color-keyboard{
                 display: flex;
-                justify-content: center;
-                gap: 3%;
+                justify-content: space-around;
+                gap: 1%;
                 //border: 1px solid black;
-                width: auto;
+                width: 100%;
                 height: auto;
-                padding: 20px 10px;
+                padding: 20px 0%;
                 .colork1{
                     background-color: #702F6E;
                     border: #702F6E;
@@ -148,7 +148,7 @@ body{
                     border: #FFD7E0;
                 }
                 .colorK{
-                    width: 9%;
+                    width: 10%;
                     height: 5vh;
                     border-radius: 20%;
                 }
@@ -167,7 +167,7 @@ body{
                         font-family:'Quicksand';
                         font-size: 30px;
                         font-weight: bolder;
-                        width: 9%;
+                        width: 10%;
                         height: 4vh;
                         border-radius: 10%;
                         border: 1px solid rgb(80, 75, 75);

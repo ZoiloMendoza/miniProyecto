@@ -17,10 +17,10 @@ body form {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 body form .main-container {
+  padding-left: 3%;
+  padding-right: 3%;
   width: auto;
   height: auto;
 }
@@ -112,11 +112,11 @@ body form .main-container .container-collar .collar {
 }
 body form .main-container .color-keyboard {
   display: flex;
-  justify-content: center;
-  gap: 3%;
-  width: auto;
+  justify-content: space-around;
+  gap: 1%;
+  width: 100%;
   height: auto;
-  padding: 20px 10px;
+  padding: 20px 0%;
 }
 body form .main-container .color-keyboard .colork1 {
   background-color: #702F6E;
@@ -155,7 +155,7 @@ body form .main-container .color-keyboard .colork9 {
   border: #FFD7E0;
 }
 body form .main-container .color-keyboard .colorK {
-  width: 9%;
+  width: 10%;
   height: 5vh;
   border-radius: 20%;
 }
@@ -175,7 +175,7 @@ body form .main-container .keyboard-container .keyRow .keyboard {
   font-family: "Quicksand";
   font-size: 30px;
   font-weight: bolder;
-  width: 9%;
+  width: 10%;
   height: 4vh;
   border-radius: 10%;
   border: 1px solid rgb(80, 75, 75);
