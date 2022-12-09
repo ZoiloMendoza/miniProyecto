@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    width: 700px;
+    width: 800px;
     height: 100vh;
     display: flex;
     padding-left: 30px;
@@ -19,7 +19,7 @@ body{
         justify-content: center;
         align-items: center;
         .main-container{
-            width: auto;
+            width: 700px;
             height: auto;
             h4{
                 font-family:'Quicksand';
@@ -39,7 +39,6 @@ body{
                 //border: 1px solid black;
                 width: auto;
                 height: auto;
-                
                 .sizeC{
                     font-family:'Quicksand';
                     font-size: 20px;
