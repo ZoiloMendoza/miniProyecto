@@ -5,11 +5,9 @@
 }
 
 body {
-  width: 800px;
+  width: 100vw;
   height: 100vh;
   display: flex;
-  padding-left: 30px;
-  padding-right: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -21,8 +19,18 @@ body form {
   align-items: center;
 }
 body form .main-container {
-  width: 700px;
+  width: auto;
   height: auto;
+}
+@media screen and (min-width: 400px) {
+  body form .main-container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body form .main-container {
+    width: 30%;
+  }
 }
 body form .main-container h4 {
   font-family: "Quicksand";
@@ -34,9 +42,8 @@ body form .main-container .size-collar {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  flex-wrap: wrap;
-  height: 9vh;
-  line-height: 4vh;
+  height: 45px;
+  line-height: 40px;
   text-align: center;
   margin-bottom: 20px;
   width: auto;
