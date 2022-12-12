@@ -37,5 +37,7 @@ function agregarItem (e) {
 
 function borrandoItem (e) {
     e.preventDefault();
-    collar.removeChild(collar.lastChild)
+    if(collar.children.length > 0){
+        collar.removeChild(collar.lastChild)
+    }
 }

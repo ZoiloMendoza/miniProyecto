@@ -176,20 +176,19 @@ body form .main-container .keyboard-container .delete {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 0;
   overflow: hidden;
   font-family: "Quicksand";
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   width: 20%;
   height: 4vh;
   border-radius: 10%;
   border: 1px solid rgb(36, 34, 34);
-  color: #cbc5c5;
+  color: #161515;
+  transition: background-color 0.5s;
 }
 body form .main-container .keyboard-container .delete:hover {
   background-color: #f5ecec;
-  color: #171515;
 }
 body form .main-container .keyboard-container .keyRow {
   display: flex;
