@@ -149,7 +149,7 @@ body form .main-container .container-collar {
 }
 @media screen and (max-width: 450px) {
   body form .main-container .container-collar {
-    width: 95vw;
+    width: 100vw;
   }
 }
 body form .main-container .container-collar .collar {
