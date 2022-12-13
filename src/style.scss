@@ -169,19 +169,22 @@ body{
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    align-items: stretch;
                     overflow: hidden;
                     font-family:'Quicksand';
-                    font-size: 20px;
+                    font-size: 18px;
                     font-weight: bolder;
                     width: 20%;
                     height: 4vh;
                     border-radius: 10%;
                     border: 1px solid rgb(36, 34, 34);
-                    color:#161515;
+                    background-color: #EFEFEF;
                     transition: background-color .5s;
+                    color: #000000;
                 }
                 .delete:hover{
-                    background-color: #f5ecec;
+                    color:#f6eef6;
+                    background-color: #5c5757;
                 }
                 .keyRow{
                     display: flex;
@@ -200,10 +203,9 @@ body{
                         border-radius: 10%;
                         border: 1px solid rgb(80, 75, 75);
                         color:#702F6E;
-                        transition: background-color .5s;
                     }
                     .keyboard:hover{
-                        background-color: #f5ecec;
+                        background-color: #ede5e5e8;
                     }
                 }
             }

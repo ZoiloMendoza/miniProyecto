@@ -13,10 +13,10 @@
     <form>
         <div class="main-container">
             <h4>Elije el tamaño de tu collar</h4>
-            <div class="size-collar">
-                <div class="sizeC">S</div>
-                <div class="sizeC">M</div>
-                <div class="sizeC">L</div>
+            <div onclick="elegirTam(event)" class="size-collar">
+                <div class="sizeC" name="s">S</div>
+                <div class="sizeC" name="m">M</div>
+                <div class="sizeC" name="l">L</div>
             </div>
             <h4>Elije el color de tu collar</h4>
             <div onclick="elegirColor(event)" class="color-collar">
@@ -89,7 +89,7 @@
                     <div class="keyboard">♜</div>
                     <div class="keyboard">⚉</div>
                     <div class="keyboard">✪</div>
-                    <div id="delete" class="delete" type="submit">Borrar</div>
+                    <div id="delete" class="delete" type="submit">🗑 letra</div>
                 </div>
             </div>
             <h4>Teléfono (10 dígitos)</h4>
