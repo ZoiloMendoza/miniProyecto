@@ -40,7 +40,7 @@ function agregarItem (e) {
     let claseLetra = e.target.classList[0];
     let letra = e.target.innerText;
     if(claseLetra == 'keyboard' && historico.length < 9){
-        const elemento = `<div style="font-family:'Quicksand'; font-size: 50px;
+        const elemento = `<div style="font-family: 'Bungee'; font-size: 65px;
         font-weight: bolder; color: ${color}; width: 11%; height: 45px; display: flex; justify-content: center;
         align-items: center; gap: 1px ; padding-bottom: 2px">${letra}</div>`;
         collar.insertAdjacentHTML('beforeend', elemento);
