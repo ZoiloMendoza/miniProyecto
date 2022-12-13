@@ -152,7 +152,7 @@ body form .main-container .container-collar .collar {
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   background-color: #FD6D6D;
 }
